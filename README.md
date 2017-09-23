@@ -1,4 +1,4 @@
-React Mortgage Simulator
+React + Redux + Typescript Mortgage Simulator
 =========
 
 ## Installation
