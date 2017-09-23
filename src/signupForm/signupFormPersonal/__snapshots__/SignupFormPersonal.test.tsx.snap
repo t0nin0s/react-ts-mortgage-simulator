@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupFormPersonal renders as expected should render as expected 1`] = `
+<Card
+  footer={true}
+  formTitle="Sign up"
+  icon="address-card-o"
+>
+  <div>
+    Please tell us your name...
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <FormGroup
+      bsClass="form-group"
+    >
+      <FormControl
+        bsClass="form-control"
+        componentClass="select"
+        id="title"
+        onChange={[Function]}
+        placeholder="Select your title"
+        type="String"
+        value=""
+      >
+        <option
+          value=""
+        >
+          Select your title
+        </option>
+        <option
+          value="Mr"
+        >
+          Mr
+        </option>
+        <option
+          value="Mrs"
+        >
+          Mrs
+        </option>
+      </FormControl>
+    </FormGroup>
+    <FormGroup
+      bsClass="form-group"
+    >
+      <FormControl
+        bsClass="form-control"
+        className="form-control"
+        componentClass="input"
+        id="name"
+        onChange={[Function]}
+        placeholder="First Name"
+        type="string"
+        value=""
+      />
+    </FormGroup>
+    <FormGroup
+      bsClass="form-group"
+    >
+      <FormControl
+        bsClass="form-control"
+        className="form-control"
+        componentClass="input"
+        id="surname"
+        onChange={[Function]}
+        placeholder="Surname"
+        type="string"
+        value=""
+      />
+    </FormGroup>
+    <div>
+      <FontAwesome
+        name="arrow-circle-right"
+        onClick={[Function]}
+        size="3x"
+        style={
+          Object {
+            "color": "#ECECEC",
+          }
+        }
+      />
+    </div>
+  </form>
+</Card>
+`;

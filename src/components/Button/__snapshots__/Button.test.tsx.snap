@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupFormPersonal renders as expected should render as expected 1`] = `
+<button
+  className=" "
+  id="idComp"
+  onClick={[Function]}
+  value="value"
+>
+  <span>
+    text
+  </span>
+  <span>
+    <FontAwesome
+      name="icon"
+      size="3x"
+      style={
+        Object {
+          "color": "color",
+        }
+      }
+      value="value"
+    />
+  </span>
+</button>
+`;

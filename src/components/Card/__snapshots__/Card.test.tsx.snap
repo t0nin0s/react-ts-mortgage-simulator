@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders as expected should render as expected 1`] = `
+<div>
+  <div />
+  <div>
+    <FontAwesome
+      name=""
+      size="4x"
+      style={
+        Object {
+          "color": "#A06FEF",
+        }
+      }
+    />
+  </div>
+  <div />
+  <div>
+    Why do you need this?
+  </div>
+</div>
+`;

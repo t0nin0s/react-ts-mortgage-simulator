@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupFormResident renders as expected should render as expected 1`] = `
+<Card
+  footer={true}
+  formTitle="Sign up"
+  icon="handshake-o"
+>
+  <div>
+    Congratulations! Below is your data
+  </div>
+  <div>
+    <pre>
+      {"title":"Mr","name":"David","surname":"Perez","gender":"Male","resident":"Yes"}
+    </pre>
+  </div>
+  <div />
+</Card>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupFormGender renders as expected should render as expected 1`] = `
+<Card
+  footer={true}
+  formTitle="Sign up"
+  icon="question-circle-o"
+>
+  <div>
+    Please tell us your gender...
+  </div>
+  <div>
+    <MyButton
+      handleOnChange={[Function]}
+      icon="mars"
+      id="gender"
+      large={true}
+      text="Male"
+      value="male"
+    />
+    <MyButton
+      handleOnChange={[Function]}
+      icon="venus"
+      id="gender"
+      large={true}
+      text="Female"
+      value="female"
+    />
+  </div>
+  <div>
+    <FontAwesome
+      name="arrow-circle-right"
+      onClick={[Function]}
+      size="3x"
+      style={
+        Object {
+          "color": "#ECECEC",
+        }
+      }
+    />
+  </div>
+</Card>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupFormResident renders as expected should render as expected 1`] = `
+<Card
+  formTitle="Sign up"
+  icon="home"
+>
+  <div>
+    Are you a UK resident?
+  </div>
+  <div>
+    <MyButton
+      color="red"
+      handleOnChange={[Function]}
+      icon="times-circle"
+      id="ukResident"
+      text="No"
+      value="No"
+    />
+    <MyButton
+      color="green"
+      handleOnChange={[Function]}
+      icon="check-circle"
+      id="ukResident"
+      text="Yes"
+      value="Yes"
+    />
+  </div>
+  <div>
+    <FontAwesome
+      name="arrow-circle-right"
+      onClick={[Function]}
+      size="3x"
+      style={
+        Object {
+          "color": "#ECECEC",
+        }
+      }
+    />
+  </div>
+</Card>
+`;

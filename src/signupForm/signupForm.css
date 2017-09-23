@@ -1,0 +1,58 @@
+:local(.form__question) {
+  text-align: center;
+  color: #585858;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+:local(.form__body) {
+    padding: 2rem 2.5rem;
+}
+
+:local(.form__submit) {
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+:local(.form__button) {
+  width: 100%;
+  color: #A06FEF;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid #ccc;
+  height: 5rem;
+  text-align: left;
+  padding-left: 3rem;
+  border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+}
+
+:local(.button__text) {
+  float:left;
+  font-weight:bold;
+  line-height: 4rem;
+}
+
+:local(.button__icon) {
+  height:4rem;
+  display: inline;
+  vertical-align: middle;
+  float: right;
+  padding-right: 1rem;
+}
+
+:local(.error_message) {
+  margin: 0 auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: red;
+  text-align: center;
+}
+
+
+.form-control {
+  margin: 1.5rem 0;
+  height: 6rem;
+}
