@@ -13,6 +13,8 @@ Alternatively you can use Yarn to install the dependencies
 
   4. `yarn`
 
+## Running  
+
 ### `npm start`
 
 Or
